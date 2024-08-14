@@ -1,21 +1,21 @@
 class Hay < Formula
   desc "A tool to check if all is healthy"
   homepage "https://github.com/LunchTimeCode/hay"
-  version "0.3.0"
+  version "0.3.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/LunchTimeCode/hay/releases/download/v0.3.0/hay-aarch64-apple-darwin.tar.gz"
-      sha256 "4a35692ee3064fdcbf76005f96c490a2cd038d3f57b3ef0ae7cf1a54bdd87758"
+      url "https://github.com/LunchTimeCode/hay/releases/download/v0.3.1/hay-aarch64-apple-darwin.tar.gz"
+      sha256 "39cba0fbe32108c0a73b09e71ba0eaf65ef57335d8f88ed19562127f1b188946"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/LunchTimeCode/hay/releases/download/v0.3.0/hay-x86_64-apple-darwin.tar.gz"
-      sha256 "d30e9e6baeff357e3864056e897eebd337487b9038eaac9359c46be3afc15fdd"
+      url "https://github.com/LunchTimeCode/hay/releases/download/v0.3.1/hay-x86_64-apple-darwin.tar.gz"
+      sha256 "833adb7ec6b4449ce679a7f7febed302e5f447ef7360b38fb6a08646c14fc06c"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/LunchTimeCode/hay/releases/download/v0.3.0/hay-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a58501fe2d5ce55e374c8363d8471d01afcdaadbb89443ff5ab0f401cd85cf69"
+      url "https://github.com/LunchTimeCode/hay/releases/download/v0.3.1/hay-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0871368ff6f0ef455aa07da7e048a17720d1360fd26f0c43cdf7a0227b3819c4"
     end
   end
 
