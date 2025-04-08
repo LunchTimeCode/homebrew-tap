@@ -1,11 +1,11 @@
 class Pubfun < Formula
   desc "A tool to extract public functions from Kotlin files."
   homepage "https://github.com/LunchTimeCode/pubfun"
-  version "0.1.1"
+  version "0.1.2"
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/LunchTimeCode/pubfun/releases/download/v0.1.1/pubfun-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fa62fd1f3dd8c204a90a9b0a0e65d9e2c571bd260d5024907cdf377b01ec6e4d"
+      url "https://github.com/LunchTimeCode/pubfun/releases/download/v0.1.2/pubfun-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c59c1d3eceb2b6f0a403cca3d4a82fd975cedb0e5aaef2be2b2c34fad1aa72a3"
     end
   end
 
