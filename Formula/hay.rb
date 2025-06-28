@@ -4,8 +4,8 @@ class Hay < Formula
   version "0.3.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/LunchTimeCode/hay/releases/download/v0.3.3/hay-aarch64-apple-darwin.tar.gz"
-      sha256 "ad35f2cb9bc78e4f65960cf3ef3807f7b4a15be7063132a8246aa35dc781ca78"
+      url "https://github.com/LunchTimeCode/hay/archive/refs/tags/v0.3.4.tar.gz"
+      sha256 "34a36e14b1d4e974e774d96bd460c5d6f52b9b4d517138f7dd75f8fb35e773ae"
     end
     if Hardware::CPU.intel?
       url "https://github.com/LunchTimeCode/hay/releases/download/v0.3.3/hay-x86_64-apple-darwin.tar.gz"
