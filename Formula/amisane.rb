@@ -4,8 +4,8 @@ class Amisane < Formula
   version "0.2.0"
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/LunchTimeCode/amisane/releases/download/v0.2.0/amisane-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e3a1bf545ae1d65c6a0e0ce514a955655258dcead7a1700e2bffa92c1079f649"
+      url "https://github.com/LunchTimeCode/amisane/archive/refs/tags/v0.2.2.tar.gz"
+      sha256 "83234759ba2237fdb2b326beb638305c48864417976f62d4f3b2e600f6bc9a9c"
     end
   end
 
